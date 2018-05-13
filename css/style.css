@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Faster+One');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+body{
+ font-family: 'Faster One', cursive;
+  background-color: #98B4D4;
+}
+
+.flex-container{
+ display:flex;
+ flex-direction:column;
+ justify-content:center;
+align-items:center;
+}
+#title{
+ opacity: 0.76;
+}
+#calculator-box{
+  height: 340px;
+  width:  450px;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #C2C7C6;
+  border: 2px solid black;
+  border-radius: 50%;
+  box-shadow: 5px 10px 34px
+1px rgba(0,0,0,0.68),
+inset -1px -6px 12px 0.5px black;
+  
+}
+
+#entry-box {
+  width: 265px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #b4b39d;
+  border-radius: 6px;
+  background-color: #4cbb17;
+  font-family: 'Audiowide', cursive;
+  text-align: right;
+  overflow: hidden;
+  font-size: 30px;
+  opacity: 0.5;
+}
+
+#buttons{
+ font-size: 8px;
+ font-weight: bold;
+ font-family: 'Press Start 2P', cursive;
+ color: white;
+ position: relative;
+ margin-top: 8px;
+ margin-left: 20%;
+ margin-right: 20%;
+}
+
+.container{
+ margin-left: auto;
+ margin-rigth: auto;
+}
+button {
+ background-color: #4C6A92;
+ border-color: #5B6E6D;
+ width: 60px;
+ height: 40px;
+ border-radius: 20%;
+ color: #F0EDE5;
+}
+
+button-group{
+  padding: 7px 7px 7px 7px;
+  display: inline-block;
+}
+
+#AC{
+ background-color: #009B77;
+}
+
+#equals{
+ margin-left: 67px;
+ width: 126px;
+}
