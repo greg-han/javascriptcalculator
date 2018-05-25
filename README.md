@@ -3,6 +3,8 @@
 Pretty basic calculator. Has an easter egg!
 
 Link to site: https://greg-han.github.io/javascriptcalculator/
+If the github page is down, the codepen link can be found here:
+https://codepen.io/greg-han/pen/demLNW
 
 ## Features
 
